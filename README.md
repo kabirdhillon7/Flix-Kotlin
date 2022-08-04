@@ -19,6 +19,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 - [ ] (2pts) Display a nice default [placeholder graphic](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
 - [ ] (2pts) Improved the user interface by experimenting with styling and coloring.
+  - [X] Updated app icon, color scheme
 - [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 - [ ] Implement a shared element transition when user clicks into the details of a movie (1 point).
 - [ ] Trailers for popular movies are played automatically when the movie is selected (1 point).
@@ -29,9 +30,9 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [ ] Add a rounded corners for the images using the Glide transformations. (1 point)
 
 ### App Walkthough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+
+<img src="https://github.com/kabirdhillon7/Flix-Kotlin/blob/master/flix_walkthrough.gif" width=250><br>
 
 ### Notes
 
