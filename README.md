@@ -1,42 +1,69 @@
 # Flix
-Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+Flix is an Android app using Kotlin that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
----
+## Table of Contents
+- [Description](#description)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Dependencies](#dependencies)
+- [License](#license)
 
-## Flix
+### Description
+Some of the main features include:
+- [X] User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
+- [X] Shows details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
+- [X] Allow video posts to be played in full-screen using the YouTubePlayerView.
 
-### User Stories
-
-#### REQUIRED (10pts)
-- [X] (10pts) User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
-- [X] (8pts) Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
-- [X] (2pts) Allow video posts to be played in full-screen using the YouTubePlayerView.
-
-#### BONUS
-- [ ] (2pts) Views should be responsive for both landscape/portrait mode.
-   - [ ] (1pt) In portrait mode, the poster image, title, and movie overview is shown.
-   - [ ] (1pt) In landscape mode, the rotated alternate layout should use the backdrop image instead and show the title and movie overview to the right of it.
-
-- [ ] (2pts) Display a nice default [placeholder graphic](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
-- [ ] (2pts) Improved the user interface by experimenting with styling and coloring.
-  - [X] Updated app icon, color scheme
-- [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
-- [ ] Implement a shared element transition when user clicks into the details of a movie (1 point).
-- [ ] Trailers for popular movies are played automatically when the movie is selected (1 point).
-  - [ ] When clicking on a popular movie (i.e. a movie voted for more than 5 stars) the video should be played immediately.
-  - [ ] Less popular videos rely on the detailed page should show an image preview that can initiate playing a YouTube video.
-- [ ] Add a play icon overlay to popular movies to indicate that the movie can be played (1 point).
-- [ ] Apply data binding for views to help remove boilerplate code. (1 point)
-- [ ] Add a rounded corners for the images using the Glide transformations. (1 point)
-
-### App Walkthough GIF
-
-
+### Demo
 <img src="https://github.com/kabirdhillon7/Flix-Kotlin/blob/master/flix_walkthrough.gif" width=250><br>
 
-### Notes
+## Installation
+
+To install and set up the app on your own device, follow these steps:
+
+### Prerequisites
+- Android Studio 4.0 or later
+- Android API l
+- Android SDK and Emulator or physical Android device for testingevel 21 or higher
+- Kotlin 1.3 or higher
+
+### Cloning the repository
+
+- Download and install the latest version of Android Studio.
+- Clone this repository to your local machine using the following command in your terminal:
+```
+git clone https://github.com/kabirdhillon7/Flix-Kotlin.git
+```
+- Open Android Studio and click on "Open an existing Android Studio project".
+- Navigate to the location where you cloned the repository, select the root folder of the project and click "OK".
+- Wait for Android Studio to build the project and all its dependencies.
+- Connect your Android device to your computer or use the Android emulator.
+- In Android Studio, click on the "Run" button or press Shift+F10 to launch the app on your device.
 
 ### Open-source libraries used
 
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Androids
+
+## Contact
+
+If you have any questions or feedback, you can reach me through the following channels:
+
+- GitHub: [@kabirdhillon7](https://github.com/kabirdhillon7)
+- LinkedIn: [Kabir Dhillon](https://www.linkedin.com/in/kabirdhillon/)
+
+## License
+
+    Copyright 2021 Kabir Dhillon
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
